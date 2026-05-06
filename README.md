@@ -1,31 +1,31 @@
-# Alerts Service - FastAPI backend for monitoring alerts
+# Alerts Service - FastAPI backend для управления алертами мониторинга
 
-Production-style backend service for centralized alert management: search, subscriptions, pauses, screenshots/links, and integrations.
+Production-style backend-сервис для централизованного управления алертами: поиск, подписки, паузы, скриншоты/ссылки и интеграции.
 
-## For Recruiters / Hiring Managers
+## Для рекрутеров и hiring-менеджеров
 
-This repository demonstrates:
-- real backend engineering in a monitoring domain (not a toy CRUD),
-- async architecture on FastAPI + PostgreSQL,
-- clear layered design (`Router -> Service -> Repository`),
-- business workflows around alert lifecycle and subscriptions,
-- test coverage across unit/integration/e2e layers.
+Этот репозиторий показывает:
+- реальную backend-разработку в домене мониторинга (не учебный CRUD),
+- асинхронную архитектуру на FastAPI + PostgreSQL,
+- понятное слоистое разделение (`Router -> Service -> Repository`),
+- бизнес-процессы вокруг жизненного цикла алертов и подписок,
+- тестирование на уровнях unit/integration/e2e.
 
-If you have 2-3 minutes, check:
-- `fastapi/app/` - application code
-- `fastapi/tests/` - test structure
-- `PRD.md` - product/business requirements
+Если у вас 2-3 минуты, посмотрите:
+- `fastapi/app/` - код приложения,
+- `fastapi/tests/` - структуру тестов,
+- `PRD.md` - продуктовые и бизнес-требования.
 
-## Key Features
+## Ключевые возможности
 
-- Alert search and filtering (with pagination and sorting)
-- Alert subscriptions management (users/channels/settings)
-- Alert pauses management (conditional and unconditional)
-- Alert details create/update flow
-- Integrations with external entities (screenshots, links, DT-related fields)
-- Structured error handling and response schemas
+- Поиск и фильтрация алертов (пагинация и сортировка)
+- Управление подписками на алерты (пользователи/каналы/настройки)
+- Управление паузами алертов (условные и безусловные)
+- Создание и обновление карточки алерта
+- Интеграции с внешними сущностями (скриншоты, ссылки, DT-связанные поля)
+- Структурированная обработка ошибок и схемы ответов
 
-## Tech Stack
+## Технологический стек
 
 - Python 3.10
 - FastAPI
@@ -33,25 +33,25 @@ If you have 2-3 minutes, check:
 - SQLAlchemy 2.0 (async)
 - Pydantic
 - Uvicorn
-- AppDynamics (monitoring integration in project context)
+- AppDynamics (интеграция мониторинга в контексте проекта)
 
-## Architecture
+## Архитектура
 
-The service follows a layered architecture:
+Сервис построен по слоистой архитектуре:
 
-- `routers/` - HTTP endpoints and input validation
-- `services/` - business logic and orchestration
-- `repositories/` - data access layer (ORM/Core)
-- `models/` - SQLAlchemy ORM models
-- `schemas/` - pydantic request/response models
-- `utils/` - db/logging/errors/context helpers
-- `contracts/` - protocol-based interfaces
+- `routers/` - HTTP-эндпоинты и валидация входных данных
+- `services/` - бизнес-логика и оркестрация
+- `repositories/` - слой доступа к данным (ORM/Core)
+- `models/` - ORM-модели SQLAlchemy
+- `schemas/` - pydantic-модели запросов и ответов
+- `utils/` - вспомогательные модули (db/logging/errors/context)
+- `contracts/` - интерфейсы на базе protocol-контрактов
 
-See also:
+Дополнительно:
 - `fastapi/app/ARCHITECTURE_NOTES.md`
 - `PRD.md`
 
-## Project Structure
+## Структура проекта
 
 ```text
 alerts/
@@ -73,21 +73,21 @@ alerts/
     └── README.md
 ```
 
-## Quick Start
+## Быстрый старт
 
-From project root:
+Из корня проекта:
 
 ```bash
 pip install -r fastapi/requirements.txt
-# configure env vars: db_host, db, db_login, db_password
+# настройте переменные окружения: db_host, db, db_login, db_password
 python3.10 -m uvicorn --app-dir fastapi/app alerts:app --host 0.0.0.0 --port 8888
 ```
 
-API docs:
+Документация API:
 - [http://localhost:8888/alerts/docs](http://localhost:8888/alerts/docs)
 
-## Notes
+## Примечания
 
-- This is a real-world style service with domain complexity and integrations.
-- Some domain names/fields are preserved from production context of monitoring workflows.
-- The repository is intentionally complete to show architecture and engineering depth, not only demo endpoints.
+- Это сервис production-style c реальной доменной логикой и интеграциями.
+- Часть доменных названий/полей сохранена из производственного контекста процессов мониторинга.
+- Репозиторий оставлен в полном виде, чтобы показать архитектуру и инженерную глубину, а не только demo-эндпоинты.
