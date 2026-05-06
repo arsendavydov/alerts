@@ -1,0 +1,1580 @@
+2026-04-17 15:11:50,018 - alerts - ERROR - test-cid - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-17 15:11:50,020 - alerts - ERROR - test-cid - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-17 15:11:50,021 - alerts - ERROR - test-cid - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-17 15:11:50,122 - alerts - ERROR - test-cid - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-17 15:11:50,147 - alerts - ERROR - test-cid - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-17 15:11:50,149 - alerts - ERROR - test-cid - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-17 15:11:50,156 - alerts - ERROR - test-cid - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-17 15:11:50,157 - alerts - ERROR - test-cid - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-17 15:11:50,159 - alerts - ERROR - test-cid - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-17 15:11:50,160 - alerts - ERROR - test-cid - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-17 15:11:50,161 - alerts - ERROR - test-cid - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-17 15:14:04,840 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-17 15:14:04,884 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-17 15:14:04,886 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-17 15:14:04,893 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-17 15:14:04,895 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-17 15:14:04,896 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-17 15:14:04,897 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-17 15:14:04,899 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-17 15:14:04,924 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-17 15:14:04,927 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-17 15:14:04,930 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-17 15:14:04,935 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-17 15:14:04,936 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-17 15:14:04,937 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-17 15:14:04,939 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-17 15:14:04,960 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 15:14:04,962 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 15:14:04,963 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 15:14:04,964 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 15:14:04,973 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 15:14:04,992 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 15:15:58,168 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-17 15:15:58,196 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-17 15:15:58,197 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-17 15:15:58,205 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-17 15:15:58,207 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-17 15:15:58,208 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-17 15:15:58,209 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-17 15:15:58,211 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-17 15:33:19,963 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-17 15:33:19,966 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-17 15:33:19,969 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-17 15:33:20,071 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-17 15:33:20,078 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-17 15:33:20,085 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-17 15:33:20,089 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-17 16:01:54,641 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-17 16:01:54,645 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-17 16:01:54,648 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-17 16:01:54,654 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-17 16:01:54,656 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-17 16:01:54,658 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-17 16:01:54,659 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-17 16:03:39,097 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-17 16:03:39,102 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-17 16:03:39,105 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-17 16:03:39,113 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-17 16:03:39,114 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-17 16:03:39,116 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-17 16:03:39,118 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-17 16:05:12,651 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 16:05:12,653 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 16:05:12,657 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:05:12,658 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 16:05:12,670 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:05:12,693 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 16:26:31,348 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 16:26:31,350 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 16:26:31,352 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:26:31,355 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 16:26:31,365 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:26:31,381 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 16:27:35,789 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 16:27:35,793 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 16:27:35,796 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:27:35,798 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 16:27:35,809 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:27:35,830 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 16:29:05,140 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 16:29:05,143 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 16:29:05,144 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:29:05,146 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 16:29:05,157 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 16:29:05,180 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 17:54:37,154 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 17:54:37,156 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 17:54:37,160 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:54:37,162 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 17:54:37,174 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:54:37,194 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 17:57:29,370 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 17:57:29,375 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 17:57:29,377 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:57:29,378 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 17:57:29,388 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:57:29,425 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 17:58:38,655 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 17:58:38,658 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 17:58:38,660 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:58:38,662 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 17:58:38,673 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:58:38,710 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 17:59:38,464 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 17:59:38,466 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 17:59:38,467 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:59:38,469 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 17:59:38,481 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 17:59:38,501 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-17 18:01:07,404 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-17 18:01:07,430 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-17 18:01:07,432 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-17 18:01:07,439 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-17 18:01:07,440 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-17 18:01:07,442 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-17 18:01:07,443 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-17 18:01:07,444 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-17 18:01:07,468 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-17 18:01:07,471 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-17 18:01:07,474 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-17 18:01:07,479 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-17 18:01:07,480 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-17 18:01:07,481 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-17 18:01:07,482 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-17 18:01:07,505 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-17 18:01:07,506 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-17 18:01:07,508 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 18:01:07,509 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-17 18:01:07,518 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-17 18:01:07,534 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:04:48,869 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:04:48,940 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:04:48,981 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:04:49,002 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:04:49,005 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:04:49,009 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:04:49,012 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:04:49,016 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:04:49,060 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:04:49,066 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:04:49,079 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:04:49,082 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:04:49,095 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:04:49,098 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:04:49,104 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:04:49,126 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:04:49,128 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:04:49,130 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:04:49,132 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:04:49,135 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:04:49,190 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:04:49,201 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:04:49,208 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:04:49,215 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:04:49,256 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:04:49,272 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:04:49,282 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:04:49,287 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:04:49,304 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:04:49,337 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:04:49,338 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:04:49,343 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:04:49,347 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:04:49,350 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:04:49,401 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:04:49,406 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:04:49,412 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:04:49,415 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:04:49,437 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:04:49,477 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:04:49,537 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:04:49,539 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:04:49,542 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:04:49,545 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:04:49,551 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:04:49,637 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:04:49,640 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:04:49,642 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:10:37,369 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:10:37,433 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:10:37,436 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:10:37,476 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:10:37,479 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:10:37,482 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:10:37,484 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:10:37,487 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:10:37,525 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:10:37,530 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:10:37,540 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:10:37,543 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:10:37,557 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:10:37,560 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:10:37,565 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:10:37,587 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:10:37,589 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:10:37,590 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:10:37,592 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:10:37,594 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:10:37,600 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:10:37,646 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:10:37,654 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:10:37,663 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:10:37,670 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:10:37,682 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:10:37,686 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:10:37,689 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:10:37,692 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:10:37,697 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:10:37,741 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:10:37,743 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:10:37,746 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:10:37,750 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:10:37,752 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:10:37,849 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:10:37,852 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:10:37,856 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:10:37,859 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:10:37,877 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:10:37,911 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:10:37,967 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:10:37,970 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:10:37,972 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:10:37,974 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:10:37,980 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:10:38,061 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:10:38,064 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:10:38,065 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:14:27,209 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:14:27,274 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:14:27,278 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:14:27,295 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:14:27,298 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:14:27,300 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:14:27,303 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:14:27,306 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:14:27,344 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:14:27,349 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:14:27,360 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:14:27,362 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:14:27,378 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:14:27,381 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:14:27,386 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:14:27,409 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:14:27,410 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:14:27,412 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:14:27,414 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:14:27,416 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:14:27,421 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:14:27,472 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:14:27,485 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:14:27,491 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:14:27,500 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:14:27,515 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:14:27,518 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:14:27,522 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:14:27,524 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:14:27,529 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:14:27,562 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:14:27,564 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:14:27,567 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:14:27,571 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:14:27,573 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:14:27,621 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:14:27,624 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:14:27,627 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:14:27,630 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:14:27,649 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:14:27,704 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:14:27,804 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:14:27,807 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:14:27,810 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:14:27,815 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:14:27,827 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:14:27,911 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:14:27,914 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:14:27,915 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:19:14,681 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:19:14,755 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:19:14,760 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:19:14,779 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:19:14,783 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:19:14,787 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:19:14,792 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:19:14,795 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:19:14,798 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: 400: bad
+2026-04-20 19:19:14,903 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:19:14,909 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:19:14,920 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:19:14,923 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:19:14,942 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:19:14,944 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:19:14,951 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:19:14,977 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:19:14,979 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:19:14,981 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:19:14,984 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:19:14,986 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:19:14,992 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:19:15,048 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:15,059 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:19:15,065 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:15,068 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: 409: conflict
+2026-04-20 19:19:15,086 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:15,103 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:15,107 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:15,114 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:15,117 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:15,121 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: 403: forbidden
+2026-04-20 19:19:15,134 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:19:15,172 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:19:15,174 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:19:15,178 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:19:15,182 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:19:15,185 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:19:15,193 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: 400: bad
+2026-04-20 19:19:15,248 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:19:15,251 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:19:15,255 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:19:15,259 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:19:15,280 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:19:15,318 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:19:15,390 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:19:15,392 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:19:15,395 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:19:15,398 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:19:15,405 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:19:15,514 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:19:15,525 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:19:15,533 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:19:37,431 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:19:37,499 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:19:37,503 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:19:37,520 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:19:37,523 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:19:37,526 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:19:37,529 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:19:37,532 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:19:37,535 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: 400: bad
+2026-04-20 19:19:37,596 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:19:37,602 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:19:37,612 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:19:37,614 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:19:37,631 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:19:37,633 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:19:37,638 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:19:37,661 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:19:37,663 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:19:37,665 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:19:37,667 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:19:37,670 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:19:37,674 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:19:37,724 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:37,733 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:19:37,739 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:37,742 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: 409: conflict
+2026-04-20 19:19:37,758 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:37,773 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:37,776 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:37,782 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:37,785 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:19:37,788 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: 403: forbidden
+2026-04-20 19:19:37,800 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:19:37,833 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:19:37,835 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:19:37,839 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:19:37,843 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:19:37,845 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:19:37,852 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: 400: bad
+2026-04-20 19:19:37,902 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:19:37,905 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:19:37,908 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:19:37,912 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:19:37,930 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:19:37,963 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:19:38,026 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:19:38,028 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:19:38,031 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:19:38,033 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:19:38,039 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:19:38,143 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:19:38,146 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:19:38,147 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:23:38,517 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:23:38,590 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:23:38,593 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:23:38,610 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:23:38,613 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:23:38,616 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:23:38,619 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:23:38,621 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:23:38,661 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:23:38,666 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:23:38,676 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:23:38,679 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:23:38,695 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:23:38,698 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:23:38,703 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:23:38,730 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:23:38,732 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:23:38,734 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:23:38,736 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:23:38,738 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:23:38,744 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:23:38,793 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:23:38,802 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:23:38,809 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:23:38,820 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:23:38,856 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:23:38,859 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:23:38,865 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:23:38,869 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:23:38,877 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:23:38,910 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:23:38,912 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:23:38,916 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:23:38,920 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:23:38,922 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:23:38,972 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:23:38,976 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:23:38,979 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:23:38,982 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:23:39,001 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:23:39,034 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:23:39,098 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:23:39,101 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:23:39,103 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:23:39,105 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:23:39,111 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:23:39,194 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:23:39,197 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:23:39,198 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:27:05,922 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:27:05,991 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:27:05,994 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:27:06,011 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:27:06,014 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:27:06,018 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:27:06,020 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:27:06,023 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:27:06,063 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:27:06,068 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:27:06,078 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:27:06,081 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:27:06,098 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:27:06,101 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:27:06,107 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:27:06,134 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:27:06,135 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:27:06,137 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:27:06,139 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:27:06,141 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:27:06,146 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:27:06,197 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:27:06,205 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:27:06,211 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:27:06,222 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:27:06,237 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:27:06,240 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:27:06,246 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:27:06,249 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:27:06,257 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:27:06,291 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:27:06,293 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:27:06,296 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:27:06,300 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:27:06,302 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:27:06,354 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:27:06,357 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:27:06,360 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:27:06,363 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:27:06,382 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:27:06,415 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:27:06,486 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-20 19:27:06,546 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:27:06,549 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:27:06,558 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:27:06,566 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:27:06,586 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:27:06,701 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:27:06,703 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:27:06,705 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:28:04,105 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-20 19:29:39,768 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:29:39,839 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:29:39,842 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:29:39,860 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:29:39,863 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:29:39,866 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:29:39,869 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:29:39,872 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:29:39,914 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:29:39,920 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:29:39,930 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:29:39,933 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:29:39,950 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:29:39,954 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:29:39,959 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:29:39,982 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:29:39,984 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:29:39,985 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:29:39,988 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:29:39,990 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:29:39,995 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:29:40,047 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:29:40,056 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:29:40,063 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:29:40,074 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:29:40,089 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:29:40,092 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:29:40,099 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:29:40,102 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:29:40,110 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:29:40,145 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:29:40,147 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:29:40,151 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:29:40,155 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:29:40,157 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:29:40,209 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:29:40,213 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:29:40,247 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:29:40,250 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:29:40,269 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:29:40,304 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:29:40,356 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-20 19:29:40,375 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:29:40,377 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:29:40,379 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:29:40,381 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:29:40,387 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:29:40,472 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:29:40,475 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:29:40,476 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:34:05,354 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:34:05,435 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:34:05,439 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:34:05,456 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:34:05,459 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:34:05,462 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:34:05,465 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:34:05,467 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:34:05,508 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:34:05,514 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:34:05,524 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:34:05,526 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:34:05,548 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:34:05,552 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:34:05,557 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:34:05,580 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:34:05,582 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:34:05,584 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:34:05,585 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:34:05,587 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:34:05,593 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:34:05,645 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:34:05,654 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:34:05,660 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:34:05,671 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:34:05,686 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:34:05,689 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:34:05,696 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:34:05,699 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:34:05,707 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:34:05,741 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:34:05,743 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:34:05,746 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:34:05,750 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:34:05,752 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:34:05,804 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:34:05,808 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:34:05,841 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:34:05,844 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:34:05,865 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:34:05,899 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:34:05,949 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-20 19:34:05,968 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:34:05,970 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:34:05,972 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:34:05,975 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:34:05,980 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:34:06,131 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:34:06,134 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:34:06,135 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:36:22,564 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:36:22,687 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:36:22,695 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:36:22,728 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:36:22,731 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:36:22,734 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:36:22,737 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:36:22,740 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:36:22,780 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:36:22,786 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:36:22,798 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:36:22,801 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:36:22,823 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:36:22,826 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:36:22,831 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:36:22,855 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:36:22,857 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:36:22,858 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:36:22,861 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:36:22,863 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:36:22,868 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:36:22,919 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:36:22,928 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:36:22,934 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:36:22,945 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:36:22,959 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:36:22,963 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:36:22,969 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:36:22,972 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:36:22,980 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:36:23,015 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:36:23,017 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:36:23,020 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:36:23,024 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:36:23,026 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:36:23,076 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:36:23,080 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:36:23,084 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:36:23,087 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:36:23,116 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:36:23,150 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:36:23,199 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-20 19:36:23,218 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:36:23,220 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:36:23,222 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:36:23,224 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:36:23,230 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:36:23,316 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:36:23,318 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:36:23,320 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-20 19:37:57,678 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-20 19:37:57,744 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-20 19:37:57,747 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-20 19:37:57,764 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-20 19:37:57,767 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-20 19:37:57,771 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-20 19:37:57,773 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-20 19:37:57,777 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-20 19:37:57,822 - alerts - ERROR - - - [DTService.get_dt] Error: Ошибка БД
+2026-04-20 19:37:57,827 - alerts - ERROR - - - [DTService.create_dt] Error: Ошибка БД
+2026-04-20 19:37:57,836 - alerts - ERROR - - - [DTService.update_dt] Error: Ошибка БД
+2026-04-20 19:37:57,839 - alerts - ERROR - - - [DTService.delete_dt] Error: Ошибка БД
+2026-04-20 19:37:57,856 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-20 19:37:57,858 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-20 19:37:57,863 - alerts - ERROR - - - [IndicatorsService.get_indicators_autocomplete] Error: Ошибка БД
+2026-04-20 19:37:57,886 - alerts - ERROR - - - [LinksService.get_links_by_alert] Error: Ошибка БД
+2026-04-20 19:37:57,888 - alerts - ERROR - - - [LinksService.get_link_detail] Error: Ошибка БД
+2026-04-20 19:37:57,889 - alerts - ERROR - - - [LinksService.create_link] Error: Ошибка БД
+2026-04-20 19:37:57,892 - alerts - ERROR - - - [LinksService.update_link] Error: Ошибка БД
+2026-04-20 19:37:57,893 - alerts - ERROR - - - [LinksService.delete_link] Error: Ошибка БД
+2026-04-20 19:37:57,899 - alerts - ERROR - - - [LinksService.get_link_detail] Error: 5 validation errors for LinkDetail
+link_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_id
+  UUID input should be a string, bytes or UUID object [type=uuid_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/uuid_type
+alert_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_name
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+link_url
+  Input should be a valid string [type=string_type, input_value=None, input_type=NoneType]
+    For further information visit https://errors.pydantic.dev/2.12/v/string_type
+2026-04-20 19:37:57,948 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:37:57,957 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-20 19:37:57,964 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-20 19:37:57,975 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-20 19:37:57,990 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-20 19:37:57,993 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-20 19:37:58,000 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-20 19:37:58,002 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-20 19:37:58,010 - alerts - ERROR - - - [RulesService.autocomplete_group_rules] Error: Ошибка БД
+2026-04-20 19:37:58,083 - alerts - ERROR - - - [ScreenshotsService.search_screenshots] Error: Ошибка БД
+2026-04-20 19:37:58,087 - alerts - ERROR - - - [ScreenshotsService.get_screenshot] Error: Ошибка БД
+2026-04-20 19:37:58,092 - alerts - ERROR - - - [ScreenshotsService.create_screenshot] Error: Ошибка БД
+2026-04-20 19:37:58,102 - alerts - ERROR - - - [ScreenshotsService.update_screenshot] Error: Ошибка БД
+2026-04-20 19:37:58,108 - alerts - ERROR - - - [ScreenshotsService.delete_screenshot] Error: Ошибка БД
+2026-04-20 19:37:58,183 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-20 19:37:58,187 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-20 19:37:58,190 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:37:58,193 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-20 19:37:58,211 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-20 19:37:58,244 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-20 19:37:58,293 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-20 19:37:58,311 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-20 19:37:58,313 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-20 19:37:58,316 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-20 19:37:58,318 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-20 19:37:58,323 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-20 19:37:58,406 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-20 19:37:58,409 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-20 19:37:58,410 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-21 12:38:48,145 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 12:38:48,151 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 12:38:48,155 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 12:38:48,163 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 12:38:48,173 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 12:38:48,175 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 12:38:48,180 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 12:38:48,182 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 12:57:29,738 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 12:57:29,744 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 12:57:29,746 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 12:57:29,748 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 12:57:29,784 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 12:57:29,808 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 12:57:29,840 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 12:57:29,974 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 12:57:29,981 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 12:57:29,984 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 12:57:29,992 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 12:57:30,001 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 12:57:30,004 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 12:57:30,008 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 12:57:30,010 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 12:58:27,977 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 12:58:27,982 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 12:58:27,984 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 12:58:27,986 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 12:58:27,998 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 12:58:28,021 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 12:58:28,055 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 12:58:28,191 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 12:58:28,197 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 12:58:28,201 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 12:58:28,208 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 12:58:28,218 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 12:58:28,220 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 12:58:28,224 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 12:58:28,226 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,813 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,825 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 13:06:36,829 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,836 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,847 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,850 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,854 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,858 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 13:06:36,872 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:06:36,873 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:06:36,875 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:06:36,876 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:06:36,895 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:07:35,651 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:07:35,655 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:07:35,656 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:07:35,658 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:07:35,661 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:07:35,697 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 13:07:35,702 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 13:07:35,706 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 13:07:35,714 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 13:07:35,725 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 13:07:35,727 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 13:07:35,731 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 13:07:35,733 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 13:17:06,531 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 13:17:06,538 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 13:17:06,541 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 13:17:06,549 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 13:17:06,559 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 13:17:06,561 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 13:17:06,566 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 13:17:06,568 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 13:23:32,827 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:23:32,834 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:23:32,836 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:23:32,838 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:23:32,867 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:23:32,889 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:23:32,922 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:27:43,683 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:27:43,690 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:27:43,692 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:27:43,694 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:27:43,722 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:27:43,745 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:27:43,777 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:32:17,893 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:32:17,899 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:32:17,901 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:32:17,903 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:32:17,915 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:32:17,937 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:32:17,970 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:32:17,981 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:32:17,983 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:32:17,985 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:32:17,986 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:32:17,990 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:34:24,803 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:34:24,810 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:34:24,812 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:34:24,815 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:34:24,827 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:34:24,851 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:34:24,884 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:34:24,896 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:34:24,898 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:34:24,899 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:34:24,901 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:34:24,904 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:49:51,479 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:49:51,485 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:49:51,487 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:49:51,489 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:49:51,502 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:49:51,540 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:49:51,574 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:49:51,587 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:49:51,588 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:49:51,590 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:49:51,591 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:49:51,595 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:51:05,074 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:51:05,078 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:51:05,080 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:51:05,082 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:51:05,094 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:51:05,118 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:51:05,151 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:51:05,163 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:51:05,165 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:51:05,166 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:51:05,168 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:51:05,171 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:55:19,199 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:55:19,207 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:55:19,212 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:55:19,213 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:55:19,226 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:55:19,249 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:55:19,297 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:55:19,472 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:55:19,474 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:55:19,475 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:55:19,476 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:55:19,480 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:56:46,489 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:56:46,496 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:56:46,498 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:56:46,501 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:56:46,537 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:56:46,579 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:56:46,613 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:56:46,624 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:56:46,626 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:56:46,627 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:56:46,629 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:56:46,633 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:57:41,034 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:57:41,041 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:57:41,045 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:57:41,047 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:57:41,061 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:57:41,087 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:57:41,139 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:57:41,151 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:57:41,154 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:57:41,155 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:57:41,156 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:57:41,160 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 13:59:13,116 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 13:59:13,121 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 13:59:13,123 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:59:13,125 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 13:59:13,137 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 13:59:13,160 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 13:59:13,209 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 13:59:13,222 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 13:59:13,223 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 13:59:13,224 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 13:59:13,226 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 13:59:13,230 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:01:02,354 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:01:02,359 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:01:02,361 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:01:02,364 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:01:02,378 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:01:02,400 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:01:02,433 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:01:02,445 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:01:02,447 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:01:02,449 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:01:02,450 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:01:02,454 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:02:53,871 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:02:53,877 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:02:53,997 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:02:54,016 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:02:54,018 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:02:54,020 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:02:54,034 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:02:54,057 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:02:54,094 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:02:54,107 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:02:54,109 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:02:54,110 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:02:54,112 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:02:54,116 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:04:27,951 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:04:27,957 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:04:27,959 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:04:27,961 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:04:27,966 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:04:27,999 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:04:28,001 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:04:28,003 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:04:28,006 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:04:28,019 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:04:28,043 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:04:28,093 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:04:28,100 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:04:28,104 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:06:16,243 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:06:16,252 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:06:16,254 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:06:16,256 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:06:16,261 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:06:16,294 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:06:16,297 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:06:16,299 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:06:16,302 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:06:16,314 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:06:16,339 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:06:16,388 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:06:16,396 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:06:16,398 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:09:10,319 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:09:10,324 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:09:10,341 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:09:10,342 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:09:10,344 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:09:10,346 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:09:10,351 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:09:10,386 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:09:10,389 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:09:10,391 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:09:10,394 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:09:10,407 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:09:10,431 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:09:10,488 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:11:01,750 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:11:01,760 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 14:11:01,764 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 14:11:01,772 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 14:11:01,783 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 14:11:01,785 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 14:11:01,791 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 14:11:01,793 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:11:01,804 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:11:01,806 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:11:01,835 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:11:01,836 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:11:01,838 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:11:01,840 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:11:01,846 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:11:01,880 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:11:01,883 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:11:01,886 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:11:01,888 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:11:01,901 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:11:01,924 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:11:01,957 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:13:37,057 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 14:13:37,110 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 14:13:37,113 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 14:13:37,124 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 14:13:37,127 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 14:13:37,129 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 14:13:37,130 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 14:13:37,132 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 14:13:37,189 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:13:37,195 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 14:13:37,199 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 14:13:37,207 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 14:13:37,218 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 14:13:37,221 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 14:13:37,228 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 14:13:37,230 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:13:37,242 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:13:37,243 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:13:37,257 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:13:37,258 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:13:37,260 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:13:37,261 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:13:37,267 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:13:37,299 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:13:37,302 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:13:37,304 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:13:37,306 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:13:37,319 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:13:37,343 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:13:37,379 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:15:05,942 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 14:15:06,003 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 14:15:06,006 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 14:15:06,020 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 14:15:06,022 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 14:15:06,024 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 14:15:06,026 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 14:15:06,029 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 14:15:06,083 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:15:06,089 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 14:15:06,093 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 14:15:06,100 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 14:15:06,114 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 14:15:06,116 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 14:15:06,124 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 14:15:06,126 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:15:06,141 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:15:06,143 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:15:06,157 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:15:06,159 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:15:06,160 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:15:06,161 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:15:06,168 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:15:06,200 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:15:06,203 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:15:06,205 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:15:06,208 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:15:06,223 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:15:06,246 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:15:06,282 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:16:25,763 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 14:16:25,821 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 14:16:25,824 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 14:16:25,838 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 14:16:25,858 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 14:16:25,860 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 14:16:25,862 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 14:16:25,864 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 14:16:25,903 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:16:25,909 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 14:16:25,913 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 14:16:25,921 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 14:16:25,933 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 14:16:25,935 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 14:16:25,942 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 14:16:25,943 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:16:25,955 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:16:25,956 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:16:25,971 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:16:25,972 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:16:25,974 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:16:25,975 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:16:25,980 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:16:26,012 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:16:26,015 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:16:26,018 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:16:26,020 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:16:26,034 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:16:26,060 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:16:26,096 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:19:04,147 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 14:19:04,205 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 14:19:04,207 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 14:19:04,222 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 14:19:04,224 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 14:19:04,226 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 14:19:04,228 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 14:19:04,230 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 14:19:04,267 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:19:04,274 - alerts - ERROR - - - [PausesService.get_alert_pauses] Error: Ошибка БД
+2026-04-21 14:19:04,278 - alerts - ERROR - - - [PausesService.schedule_alert_pause] Error: Ошибка БД
+2026-04-21 14:19:04,287 - alerts - ERROR - - - [PausesService.stop_alert_pause] Error: Ошибка БД
+2026-04-21 14:19:04,297 - alerts - ERROR - - - [PausesService.update_alert_pause] Error: Ошибка БД
+2026-04-21 14:19:04,300 - alerts - ERROR - - - [PausesService.stop_specific_alert_pause] Error: Ошибка БД
+2026-04-21 14:19:04,306 - alerts - ERROR - - - [PausesService.delete_alert_pause] Error: Ошибка БД
+2026-04-21 14:19:04,308 - alerts - ERROR - - - [PausesService.toggle_alert_pause] Error: Ошибка БД
+2026-04-21 14:19:04,319 - alerts - ERROR - - - [FeedbackService.create_feedback] Ошибка при создании фидбека: Ошибка БД
+2026-04-21 14:19:04,321 - alerts - ERROR - - - [FeedbackService.delete_feedback] Ошибка при удалении фидбека: Ошибка БД
+2026-04-21 14:19:04,336 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:19:04,337 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:19:04,339 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:19:04,341 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:19:04,347 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:19:04,380 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:19:04,382 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:19:04,386 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:19:04,388 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:19:04,402 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:19:04,446 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:19:04,482 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:20:51,102 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:20:51,107 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:20:51,109 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:20:51,112 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:20:51,124 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:20:51,149 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:20:51,205 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:20:51,318 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 14:20:51,369 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 14:20:51,371 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 14:20:51,385 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 14:20:51,388 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 14:20:51,390 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 14:20:51,392 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 14:20:51,394 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 14:28:41,548 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:28:41,557 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:28:41,558 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:28:41,560 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:28:41,565 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:32:08,373 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:32:08,387 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:32:08,389 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:32:08,391 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:32:08,398 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:35:36,312 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:35:36,325 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:35:36,327 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:35:36,329 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:35:36,342 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:35:36,366 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:35:36,403 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:35:36,576 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:35:36,578 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:35:36,579 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:35:36,581 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:35:36,587 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:36:29,788 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:36:29,797 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:36:29,799 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:36:29,801 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:36:29,815 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:36:29,840 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:36:29,875 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:36:29,945 - alerts - ERROR - - - [UsersService.get_telegram_by_login] Error: Ошибка БД
+2026-04-21 14:36:29,947 - alerts - ERROR - - - [UsersService.create_user] Error: Ошибка БД
+2026-04-21 14:36:29,949 - alerts - ERROR - - - [UsersService.update_user] Error: Ошибка БД
+2026-04-21 14:36:29,950 - alerts - ERROR - - - [UsersService.delete_user] Error: Ошибка БД
+2026-04-21 14:36:29,956 - alerts - ERROR - - - [UsersService.search_users] Error: Ошибка БД
+2026-04-21 14:56:06,402 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 14:56:06,425 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 14:56:06,428 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:56:06,430 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 14:56:06,443 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 14:56:06,467 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 14:56:06,500 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 14:56:06,509 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 14:56:06,560 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 14:56:06,563 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 14:56:06,576 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 14:56:06,578 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 14:56:06,580 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 14:56:06,582 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 14:56:06,584 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 15:00:13,716 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 15:00:13,785 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 15:00:13,788 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 15:00:13,803 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 15:00:13,805 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 15:00:13,807 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 15:00:13,809 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 15:00:13,811 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 15:00:13,977 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 15:00:13,979 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 15:00:13,981 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:00:13,983 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 15:00:13,997 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:00:14,024 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 15:00:14,060 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 15:01:51,980 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 15:01:52,067 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 15:01:52,070 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 15:01:52,086 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 15:01:52,088 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 15:01:52,090 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 15:01:52,092 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 15:01:52,094 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 15:02:54,570 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 15:02:54,625 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 15:02:54,627 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 15:02:54,640 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 15:02:54,642 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 15:02:54,644 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 15:02:54,646 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 15:02:54,648 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 15:04:14,364 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 15:04:14,420 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 15:04:14,423 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 15:04:14,437 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 15:04:14,439 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 15:04:14,441 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 15:04:14,443 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 15:04:14,446 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 15:10:43,611 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 15:10:43,688 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 15:10:43,691 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 15:10:43,705 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 15:10:43,708 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 15:10:43,709 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 15:10:43,711 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 15:10:43,713 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 15:10:43,747 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 15:10:43,749 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 15:10:43,751 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:10:43,754 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 15:10:43,766 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:10:43,791 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 15:11:43,412 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 15:11:43,421 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 15:11:43,423 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:11:43,425 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 15:11:43,438 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:11:43,461 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 15:11:43,498 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 15:19:34,420 - alerts - ERROR - - - [SubscriptionsService.subscribe] Error: Ошибка БД
+2026-04-21 15:19:34,432 - alerts - ERROR - - - [SubscriptionsService.unsubscribe] Error: Ошибка БД
+2026-04-21 15:19:34,435 - alerts - ERROR - - - [SubscriptionsService.update_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:19:34,438 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: Ошибка БД
+2026-04-21 15:19:34,451 - alerts - ERROR - - - [SubscriptionsService.get_subscription_by_alert_and_user] Error: Ошибка БД
+2026-04-21 15:19:34,476 - alerts - ERROR - - - [SubscriptionsService.get_alerts_by_user] Error: Ошибка БД
+2026-04-21 15:19:34,530 - alerts - ERROR - - - [SubscriptionsService.get_subscription_users] Error: out
+2026-04-21 15:19:34,541 - alerts - ERROR - - - [AlertsService.search_alerts] Error: Ошибка БД
+2026-04-21 15:19:34,592 - alerts - ERROR - - - [AlertsService.get_alert_detail] Error: Ошибка БД
+2026-04-21 15:19:34,595 - alerts - ERROR - - - [AlertsService.create_alert] Error: Ошибка БД
+2026-04-21 15:19:34,608 - alerts - ERROR - - - [AlertsService.update_alert] Error: Ошибка БД
+2026-04-21 15:19:34,610 - alerts - ERROR - - - [AlertsService.delete_alert] Error: Ошибка БД
+2026-04-21 15:19:34,612 - alerts - ERROR - - - [AlertsService.autocomplete_alerts] Error: Ошибка БД
+2026-04-21 15:19:34,614 - alerts - ERROR - - - [AlertsService.get_tag_cloud] Error: Ошибка БД
+2026-04-21 15:19:34,616 - alerts - ERROR - - - [AlertsService.duplicate_alert] Error: Ошибка БД
+2026-04-21 15:24:54,415 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-21 15:24:54,441 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-21 15:24:54,442 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-21 15:25:49,871 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-21 15:25:49,881 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-21 15:25:49,883 - alerts - ERROR - - - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-21 15:49:08,195 - alerts - ERROR - cid-1 - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-21 15:49:08,206 - alerts - ERROR - cid-1 - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-21 15:49:08,207 - alerts - ERROR - cid-1 - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-21 15:50:02,282 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,287 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,289 - httpx - INFO - cid-1 - HTTP Request: GET http://test/test-http-exception "HTTP/1.1 404 Not Found"
+2026-04-21 15:50:02,290 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,291 - httpx - INFO - cid-1 - HTTP Request: GET http://test/test-validation?param=not_a_number "HTTP/1.1 400 Bad Request"
+2026-04-21 15:50:02,292 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,293 - alerts - ERROR - cid-1 - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Test error
+Traceback:
+NoneType: None
+
+2026-04-21 15:50:02,293 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,294 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,295 - alerts - ERROR - cid-1 - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: Internal error details
+Traceback:
+NoneType: None
+
+2026-04-21 15:50:02,295 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,295 - alerts - ERROR - cid-1 - [GlobalExceptionHandler] Unhandled exception: ValueError
+Error: debug details
+Traceback:
+NoneType: None
+
+2026-04-21 15:50:02,296 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,297 - httpx - INFO - cid-1 - HTTP Request: GET http://test/test-http-no-trace "HTTP/1.1 404 Not Found"
+2026-04-21 15:50:02,298 - asyncio - DEBUG - cid-1 - Using selector: KqueueSelector
+2026-04-21 15:50:02,301 - httpx - INFO - cid-1 - HTTP Request: GET http://test/test-validation-no-trace?param=not_a_number "HTTP/1.1 400 Bad Request"

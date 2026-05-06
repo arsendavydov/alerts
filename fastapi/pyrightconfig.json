@@ -1,0 +1,56 @@
+{
+  "include": [
+    "."
+  ],
+  "exclude": [
+    "**/__pycache__",
+    "**/node_modules",
+    "**/.venv",
+    "**/venv",
+    "**/.migration"
+  ],
+  "executionEnvironments": [
+    {
+      "root": "app",
+      "pythonVersion": "3.10",
+      "pythonPlatform": "Darwin"
+    },
+    {
+      "root": "tests",
+      "pythonVersion": "3.10",
+      "pythonPlatform": "Darwin",
+      "extraPaths": [
+        "app"
+      ],
+      "reportMissingImports": false,
+      "reportUnusedFunction": false,
+      "reportUnusedClass": false,
+      "reportArgumentType": false,
+      "reportCallIssue": false,
+      "reportGeneralTypeIssues": false
+    }
+  ],
+  "pythonVersion": "3.10",
+  "typeCheckingMode": "basic",
+  "reportMissingImports": "warning",
+  "reportMissingTypeStubs": false,
+  "reportMissingModuleSource": false,
+  "reportUnusedImport": true,
+  "reportUnusedClass": true,
+  "reportUnusedFunction": true,
+  "reportUnusedVariable": true,
+  "reportDuplicateImport": true,
+  "reportOptionalSubscript": false,
+  "reportOptionalMemberAccess": false,
+  "reportOptionalCall": false,
+  "reportGeneralTypeIssues": false,
+  "reportArgumentType": false,
+  "reportCallIssue": false,
+  "reportIncompatibleMethodOverride": false,
+  "reportIncompatibleVariableOverride": false,
+  "reportUnknownArgumentType": false,
+  "reportUnknownParameterType": false,
+  "reportUnknownVariableType": false,
+  "reportUnknownMemberType": false,
+  "reportUnknownLambdaType": false
+}

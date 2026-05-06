@@ -1,0 +1,104 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: alerts
+  namespace: opsm-test
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: alerts
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
+  template:
+    metadata:
+      labels:
+        app: alerts
+    spec:
+      containers:
+      - name: alerts
+        image: artifactory.rgs.ru/docker/opsm/alerts_pg:2026.4.1
+        imagePullPolicy: Always
+        readinessProbe:
+          failureThreshold: 3
+          successThreshold: 1
+          periodSeconds: 10
+          timeoutSeconds: 3
+          httpGet:
+            port: 5000
+            path: /alerts/health
+        livenessProbe:
+          failureThreshold: 3
+          successThreshold: 1
+          periodSeconds: 10
+          timeoutSeconds: 3
+          httpGet:
+            port: 5000
+            path: /alerts/health
+        env:
+        - name: APPDYNAMICS_CONTROLLER_HOST_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: appdynamics
+              key: APPDYNAMICS_CONTROLLER_HOST_NAME
+        - name: APPDYNAMICS_CONTROLLER_PORT
+          valueFrom:
+            configMapKeyRef:
+              name: appdynamics
+              key: APPDYNAMICS_CONTROLLER_PORT
+        - name: APPDYNAMICS_AGENT_ACCOUNT_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: appdynamics
+              key: APPDYNAMICS_AGENT_ACCOUNT_NAME
+        - name: APPDYNAMICS_AGENT_ACCOUNT_ACCESS_KEY
+          valueFrom:
+            secretKeyRef:
+              name: appdynamics
+              key: access_key
+        - name: APPDYNAMICS_AGENT_APPLICATION_NAME
+          valueFrom:
+            configMapKeyRef:
+              name: appdynamics
+              key: APPDYNAMICS_AGENT_APPLICATION_NAME
+        - name: APPDYNAMICS_AGENT_TIER_NAME
+          value: alerts-k8s
+        - name: APPDYNAMICS_AGENT_REUSE_NODE_NAME
+          value: 'true'
+        - name: APPDYNAMICS_AGENT_REUSE_NODE_NAME_PREFIX
+          valueFrom:
+            fieldRef:
+              apiVersion: v1
+              fieldPath: metadata.name
+        - name: WORKERS_COUNT
+          value: '5'
+        - name: WORKERS_TIMEOUT
+          value: '180'
+        - name: LEVEL_LOG
+          value: ERROR
+        - name: db_host
+          valueFrom:
+            configMapKeyRef:
+              name: pg-event-manager
+              key: db_host
+        - name: db
+          valueFrom:
+            configMapKeyRef:
+              name: pg-event-manager
+              key: db
+        - name: db_login
+          valueFrom:
+            secretKeyRef:
+              name: pg-event-manager
+              key: login
+        - name: db_password
+          valueFrom:
+            secretKeyRef:
+              name: pg-event-manager
+              key: password
+        ports:
+        - containerPort: 5000
+          protocol: TCP

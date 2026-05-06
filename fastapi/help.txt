@@ -1,0 +1,17 @@
+#deploy 
+cd fastapi
+docker build --platform=linux/x86_64 -t artifactory.rgs.ru/docker/opsm/alerts_pg:2026.4.1 .
+docker image push artifactory.rgs.ru/docker/opsm/alerts_pg:2026.4.1
+
+cd alerts
+kubectl --kubeconfig=C:\Users\ADavydov\.kube\k8s-k7-monit-kubectl.cfg apply -f .\fastapi\k8s\k8s-alerts-test.yaml
+kubectl --kubeconfig=C:\Users\ADavydov\.kube\k8s-k7-monit-kubectl.cfg rollout status deployment/alerts -n opsm-test
+
+
+#local start
+cd alerts
+python -m dotenv -f .env run -- uvicorn --app-dir fastapi/app alerts:app --reload --port 8888
+
+
+#logs_in_kube
+kubectl --kubeconfig "C:\Users\ADavydov\.kube\k8s-k7-monit-kubectl.cfg" get pods -n opsm-test -l app=alerts
